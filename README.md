@@ -1,7 +1,7 @@
 # code_for_ekino
 
 Hello Hugo!
-J'ai rassemblé les programmes de mes anciens projets (CITSIM, Wujico) ainsi que des docs associées qui expliquent de quoi il s'agitt. 
+J'ai rassemblé les programmes de mes anciens projets (CITSIM, Wujico) ainsi que des docs associées qui expliquent de quoi il s'agit. 
 En ce qui concerne la blockchain, je ne peux montrer que le projet SuiviMed dont j'ai donné le lien sur mon cv et pour 
 lequel je me suis occupé de presque tout (React+contrats+tests) (https://github.com/Projet-suivi-des-essais-cliniques-Alyra/SuiviMed).
 J'ai signé un accord de confidentialité ppour le proojet my-nfties. Tout ce que je peux dire c'est que je travaille sur
