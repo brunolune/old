@@ -1,0 +1,1061 @@
+------------------POPULATION----------------------------------------------
+Generation no 100 :
+Execution time:  20.68044137954712  secondes
+Mean score_nutri:  -99.49138469831011
+Mean score_taste:  0.08512831050153517
+Mean exp_combined = 6.8224275678445245
+Mean exp_nutri = 2.4664418331524787
+Mean exp_taste = 1.94505795787659
+Mean score_mini = 0.839508881731477
+Mean exp_novelty = 1.3388794235685482
+Mean score_novelty = 2.631505859375
+Mean PRAL (~0?) :  -0.6790288189758736
+Mean SAIN (>5?) :  1.4291185948142209
+Mean LIM (<7?) :  2.897606174395525
+Mean FF (>2.5?) :  2.6117647591011144
+Mean NutriScore (A=5,E=1) :  4.793
+Top 3 worst scores_nutri [-87.7991065  -88.41663747 -88.43261612]
+Top 3 best scores_nutri [-142.31968822 -131.59836254 -131.59836254]
+Top 3 best taste scores [0.10356481 0.10315026 0.10274095 0.10259952]
+Top 3 best exp_combined (combined scores) [43.57987398 30.61646813 29.86005541 29.86005541]
+Mean total weight 2051.656
+nb d'ingredients en commun entre profils (gen-1)= 56
+------------------PROFILS-------------------------------------------------
+Group's profil no 2
+profils:
+['Femmes 18 - < 55 ans obèse ', 'Hommes 18 - < 55 ans ; hommes > 55 ans< 70 ans homme obèse ou diabète type 2 si obèse ']
+Nb of different ingredients in population =  117
+Nb of best day 's ingredients in common with best scores days: [[9 8 9 7]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]
+ [7 8 8 6]]
+------------------BEST MOST DIFFERENT RECIPES--------------------------------------------
+-------------------------FIRST BEST RECIPES---------------------------------------------------
+position in combined score= 0
+score_nutri = -92.34848136248672
+score_taste = 0.08577221269556948
+exp_combined = 43.57987398148226
+exp_nutri = 5.588926468398052
+exp_taste = 1.0568222151278035
+score_mini = 0.8666666666666667
+score_novelty = 2.7511393229166665
+exp_novelty = 2.3703392518164343
+PRAL =  -0.9905971159994038
+SAIN =  1.4476675221211837
+LIM =  3.104330034492012
+FF =  2.611760694888149
+NutriScore =  4.75
++++++++++++++++++++++++++++++++++++++++++++++
+Petit Dejeuner:
+oeuf : Oeuf de caille, cru ,  50 g
+feculent : Riz blanc étuvé, cuit, non salé ,  102.0 g
+legumineuse : Fève, cuite ,  48.0 g
+fruit et legume : Fruit de la passion ou maracudja, pulpe et pépins, cru ,  50 g
+fruit et legume : Groseille à maquereau, crue ,  50 g
+fruit à coque : Châtaigne, bouillie/cuite à l'eau ,  10 g
+fruit à coque : Cacahuète ou Arachide ,  10 g
+laitage : Boisson à base d'avoine, nature ,  126.0 g
+fromage : Ricotta ,  24.0 g
++++++++++++++++++++++++++++++++++++++++++++++
+Dejeuner:
+feculent : Pomme de terre, bouillie/cuite à l'eau ,  169.0 g
+legumineuse : Pois cassé, cuit ,  31.0 g
+fruit et legume : Poivron, vert, jaune ou rouge, cru ,  117.0 g
+fruit et legume : Bambou, pousse, crue ,  117.0 g
+fruit séché : Raisin, sec ,  17.0 g
+graine : Sésame, graine décortiquée ,  20 g
+laitage : Lait concentré non sucré, entier ,  86.0 g
+fromage : Edam ,  64.0 g
++++++++++++++++++++++++++++++++++++++++++++++
+Collation:
+feculent : Pomme de terre, purée (aliment moyen) ,  90.0 g
+legumineuse : Lentille, sèche ,  5.0 g
+legumineuse : Lentille verte, cuite ,  5.0 g
+fruit et legume : Nectarine ou brugnon, pulpe et peau, crue ,  31.0 g
+fruit et legume : Groseille à maquereau, crue ,  31.0 g
+fruit et legume : Poivron vert, cuit ,  31.0 g
+fruit séché : Pomme, sèche ,  7.0 g
+fruit à coque : Châtaigne, bouillie/cuite à l'eau ,  20 g
+laitage : Yaourt ou spécialité laitière nature (aliment moyen) ,  100 g
++++++++++++++++++++++++++++++++++++++++++++++
+Diner:
+feculent : Riz blanc étuvé, cuit, non salé ,  155.0 g
+legumineuse : Pois chiche, cuit ,  45.0 g
+fruit et legume : Tomate, pulpe et peau, bouillie/cuite à l'eau ,  125 g
+fruit et legume : Courge, crue ,  125 g
+fruit à coque : Noix du Brésil ,  20 g
+laitage : Kéfir ,  150 g
+matières grasses : Beurre de cacao ,  15 g
++++++++++++++++++++++++++++++++++++++++++++++
+                                                 Petit Dejeuner:  Dejeuner:  \
+Energie, Règlement UE N° 1169/2011 (kcal)               1.381133   1.747175   
+Protéines (g)                                           0.929164   1.356446   
+Lipides (g)                                             1.084813   1.830467   
+AG saturés (g)                                          0.960055   1.792313   
+Acide laurique + myristique + palmitique (g)            0.989346   1.810096   
+Cholestérol (mg)                                        3.618667   0.365128   
+AG 18:2 9c,12c (n-6), linoléique (g)                    1.119671   1.987355   
+AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g)         0.260889   0.363111   
+EPA + DHA (mg)                                          0.000218   0.000000   
+Glucides (g)                                            1.445067   1.194230   
+Sucres  totaux hors lactose (g)                         3.257271   3.046863   
+Fibres alimentaires (g)                                 2.072833   1.532051   
+Vitamine C (mg)                                         1.713545   5.516336   
+Vitamine B1 ou Thiamine (mg)                            1.123556   1.634501   
+Vitamine B2 ou Riboflavine (mg)                         1.848727   1.953333   
+Vitamine B3 ou PP ou Niacine (mg)                       0.994204   1.478951   
+Vitamine B5 ou Acide pantothénique (mg)                 1.513086   2.577656   
+Vitamine B6 (mg)                                        0.940606   4.120000   
+Vitamine B9 ou Folates totaux (µg)                      1.446162   1.987385   
+Vitamine B12 (µg)                                       1.089500   1.080000   
+Vitamine A  (µg)                                        1.226810   2.477949   
+Vitamine E (mg)                                         0.687608   1.089774   
+Sel chlorure de sodium (g)                              0.369216   1.272414   
+Calcium (mg)                                            0.822882   3.219092   
+Phosphore (mg)                                          2.466429   4.884495   
+Magnésium (mg)                                          0.855364   1.394698   
+Fer (mg)                                                1.846091   1.336154   
+Iode (µg)                                               1.483000   1.365538   
+Zinc (mg)                                               0.936615   2.203077   
+Cuivre (mg)                                             1.717130   3.067826   
+Sélénium (µg)                                           2.396714   1.695220   
+Manganèse (mg)                                          1.209509   1.574514   
+
+                                                 Collation:    Diner:  \
+Energie, Règlement UE N° 1169/2011 (kcal)          1.507992  1.421562   
+Protéines (g)                                      1.116667  0.691170   
+Lipides (g)                                        0.984117  1.868359   
+AG saturés (g)                                     1.349968  2.306259   
+Acide laurique + myristique + palmitique (g)       1.281105  1.792175   
+Cholestérol (mg)                                   0.337708  0.134615   
+AG 18:2 9c,12c (n-6), linoléique (g)               0.182055  2.648051   
+AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g)    0.371278  0.279145   
+EPA + DHA (mg)                                     0.000026  0.000055   
+Glucides (g)                                       1.961933  1.312932   
+Sucres  totaux hors lactose (g)                    5.264839  3.129203   
+Fibres alimentaires (g)                            2.456250  1.232372   
+Vitamine C (mg)                                    5.138977  1.409615   
+Vitamine B1 ou Thiamine (mg)                       2.163981  1.298433   
+Vitamine B2 ou Riboflavine (mg)                    2.867879  1.162238   
+Vitamine B3 ou PP ou Niacine (mg)                  1.557484  0.513229   
+Vitamine B5 ou Acide pantothénique (mg)            2.365929  0.871795   
+Vitamine B6 (mg)                                   2.818409  1.025641   
+Vitamine B9 ou Folates totaux (µg)                 1.928712  1.380746   
+Vitamine B12 (µg)                                  1.210625  0.259615   
+Vitamine A  (µg)                                   1.031429  1.771978   
+Vitamine E (mg)                                    1.118333  0.871342   
+Sel chlorure de sodium (g)                         0.891398  0.166290   
+Calcium (mg)                                       2.459959  1.254014   
+Phosphore (mg)                                     3.792661  2.508791   
+Magnésium (mg)                                     1.325926  1.244872   
+Fer (mg)                                           1.930341  0.934091   
+Iode (µg)                                          2.653500  1.615962   
+Zinc (mg)                                          1.205692  0.950751   
+Cuivre (mg)                                        2.936522  2.585284   
+Sélénium (µg)                                      1.259306  2.188187   
+Manganèse (mg)                                     2.157123  1.869376   
+
+                                                   global  
+Energie, Règlement UE N° 1169/2011 (kcal)        1.525922  
+Protéines (g)                                    1.009433  
+Lipides (g)                                      1.571733  
+AG saturés (g)                                   1.707046  
+Acide laurique + myristique + palmitique (g)     1.546185  
+Cholestérol (mg)                                 1.100854  
+AG 18:2 9c,12c (n-6), linoléique (g)             1.804630  
+AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g)  0.311083  
+EPA + DHA (mg)                                   0.000075  
+Glucides (g)                                     1.372288  
+Sucres  totaux hors lactose (g)                  3.348023  
+Fibres alimentaires (g)                          1.662271  
+Vitamine C (mg)                                  3.193218  
+Vitamine B1 ou Thiamine (mg)                     1.450491  
+Vitamine B2 ou Riboflavine (mg)                  1.761530  
+Vitamine B3 ou PP ou Niacine (mg)                1.051758  
+Vitamine B5 ou Acide pantothénique (mg)          1.735936  
+Vitamine B6 (mg)                                 2.189326  
+Vitamine B9 ou Folates totaux (µg)               1.649054  
+Vitamine B12 (µg)                                0.828812  
+Vitamine A  (µg)                                 1.791071  
+Vitamine E (mg)                                  0.921098  
+Sel chlorure de sodium (g)                       0.649023  
+Calcium (mg)                                     1.905476  
+Phosphore (mg)                                   3.398691  
+Magnésium (mg)                                   1.204294  
+Fer (mg)                                         1.392386  
+Iode (µg)                                        1.605088  
+Zinc (mg)                                        1.379717  
+Cuivre (mg)                                      2.560196  
+Sélénium (µg)                                    1.987216  
+Manganèse (mg)                                   1.637354  
+-------------------------SECOND BEST RECIPES---------------------------------------------------
+position in combined score= 12
+score_nutri = -92.03952071587634
+score_taste = 0.08325172692019836
+exp_combined = 28.12914428887439
+exp_nutri = 6.0207902232754815
+exp_taste = 0.8512339753144569
+score_mini = 0.8666666666666667
+score_novelty = 2.7101236979166665
+exp_novelty = 1.7632299074091848
+PRAL =  -0.8685902088410646
+SAIN =  1.4046441756791959
+LIM =  2.76336440244011
+FF =  2.628069870261191
+NutriScore =  4.75
++++++++++++++++++++++++++++++++++++++++++++++
+Petit Dejeuner:
+oeuf : Oeuf de caille, cru ,  50 g
+feculent : Riz blanc étuvé, cuit, non salé ,  102.0 g
+legumineuse : Fève, cuite ,  48.0 g
+fruit et legume : Fruit de la passion ou maracudja, pulpe et pépins, cru ,  50 g
+fruit et legume : Groseille à maquereau, crue ,  50 g
+graine : Tournesol, graine ,  5.0 g
+fruit à coque : Noisette ,  15.0 g
+laitage : Boisson à base d'avoine, nature ,  126.0 g
+fromage : Ricotta ,  24.0 g
++++++++++++++++++++++++++++++++++++++++++++++
+Dejeuner:
+feculent : Pomme de terre, bouillie/cuite à l'eau ,  169.0 g
+legumineuse : Pois cassé, cuit ,  31.0 g
+fruit et legume : Poivron, vert, jaune ou rouge, cru ,  117.0 g
+fruit et legume : Bambou, pousse, crue ,  117.0 g
+fruit séché : Raisin, sec ,  17.0 g
+graine : Sésame, graine décortiquée ,  20 g
+laitage : Lait concentré non sucré, entier ,  86.0 g
+fromage : Edam ,  64.0 g
++++++++++++++++++++++++++++++++++++++++++++++
+Collation:
+feculent : Pomme de terre, purée (aliment moyen) ,  90.0 g
+legumineuse : Lentille, sèche ,  5.0 g
+legumineuse : Lentille verte, cuite ,  5.0 g
+fruit et legume : Nectarine ou brugnon, pulpe et peau, crue ,  31.0 g
+fruit et legume : Groseille à maquereau, crue ,  31.0 g
+fruit et legume : Poivron vert, cuit ,  31.0 g
+fruit séché : Pomme, sèche ,  7.0 g
+fruit à coque : Châtaigne, bouillie/cuite à l'eau ,  20 g
+laitage : Boisson à l'amande ,  89.0 g
+fromage : Ricotta ,  11.0 g
++++++++++++++++++++++++++++++++++++++++++++++
+Diner:
+feculent : Riz blanc étuvé, cuit, non salé ,  155.0 g
+legumineuse : Pois chiche, cuit ,  45.0 g
+fruit et legume : Tomate, pulpe et peau, bouillie/cuite à l'eau ,  125 g
+fruit et legume : Courge, crue ,  125 g
+fruit à coque : Noix du Brésil ,  20 g
+laitage : Boisson à l'amande ,  150 g
+matières grasses : Beurre de cacao ,  15 g
++++++++++++++++++++++++++++++++++++++++++++++
+                                                 Petit Dejeuner:  Dejeuner:  \
+Energie, Règlement UE N° 1169/2011 (kcal)               1.558255   1.747175   
+Protéines (g)                                           0.961600   1.356446   
+Lipides (g)                                             1.563280   1.830467   
+AG saturés (g)                                          0.980873   1.792313   
+Acide laurique + myristique + palmitique (g)            1.018367   1.810096   
+Cholestérol (mg)                                        3.618667   0.365128   
+AG 18:2 9c,12c (n-6), linoléique (g)                    1.605973   1.987355   
+AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g)         0.288778   0.363111   
+EPA + DHA (mg)                                          0.000207   0.000000   
+Glucides (g)                                            1.381394   1.194230   
+Sucres  totaux hors lactose (g)                         3.091129   3.046863   
+Fibres alimentaires (g)                                 2.150333   1.532051   
+Vitamine C (mg)                                         1.596500   5.516336   
+Vitamine B1 ou Thiamine (mg)                            1.486519   1.634501   
+Vitamine B2 ou Riboflavine (mg)                         1.885394   1.953333   
+Vitamine B3 ou PP ou Niacine (mg)                       0.762357   1.478951   
+Vitamine B5 ou Acide pantothénique (mg)                 1.487371   2.577656   
+Vitamine B6 (mg)                                        1.092121   4.120000   
+Vitamine B9 ou Folates totaux (µg)                      1.665799   1.987385   
+Vitamine B12 (µg)                                       1.089500   1.080000   
+Vitamine A  (µg)                                        1.228774   2.477949   
+Vitamine E (mg)                                         1.713686   1.089774   
+Sel chlorure de sodium (g)                              0.370535   1.272414   
+Calcium (mg)                                            0.881472   3.219092   
+Phosphore (mg)                                          2.562143   4.884495   
+Magnésium (mg)                                          1.004082   1.394698   
+Fer (mg)                                                1.997000   1.336154   
+Iode (µg)                                               1.452333   1.365538   
+Zinc (mg)                                               1.032473   2.203077   
+Cuivre (mg)                                             2.617130   3.067826   
+Sélénium (µg)                                           2.250321   1.695220   
+Manganèse (mg)                                          2.072717   1.574514   
+
+                                                 Collation:    Diner:  \
+Energie, Règlement UE N° 1169/2011 (kcal)          1.247576  1.500233   
+Protéines (g)                                      0.795564  0.546275   
+Lipides (g)                                        0.968117  1.706821   
+AG saturés (g)                                     0.997968  1.842622   
+Acide laurique + myristique + palmitique (g)       0.964415  1.279708   
+Cholestérol (mg)                                   0.208750  0.000000   
+AG 18:2 9c,12c (n-6), linoléique (g)               0.117123  2.600632   
+AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g)    0.330722  0.209915   
+EPA + DHA (mg)                                     0.000020  0.000055   
+Glucides (g)                                       1.841964  1.227618   
+Sucres  totaux hors lactose (g)                    4.884857  3.248709   
+Fibres alimentaires (g)                            2.603458  1.309295   
+Vitamine C (mg)                                    5.110568  1.393881   
+Vitamine B1 ou Thiamine (mg)                       1.815185  1.148860   
+Vitamine B2 ou Riboflavine (mg)                    1.208030  0.497902   
+Vitamine B3 ou PP ou Niacine (mg)                  1.485828  0.518006   
+Vitamine B5 ou Acide pantothénique (mg)            1.587595  0.531136   
+Vitamine B6 (mg)                                   2.437576  0.892774   
+Vitamine B9 ou Folates totaux (µg)                 1.232045  1.101026   
+Vitamine B12 (µg)                                  0.358750  0.000000   
+Vitamine A  (µg)                                   1.060089  1.519780   
+Vitamine E (mg)                                    1.668529  1.141931   
+Sel chlorure de sodium (g)                         0.670943  0.040416   
+Calcium (mg)                                       1.328805  0.543955   
+Phosphore (mg)                                     2.587839  1.849451   
+Magnésium (mg)                                     1.033874  1.094576   
+Fer (mg)                                           1.794886  0.960315   
+Iode (µg)                                          0.685167  0.681346   
+Zinc (mg)                                          0.988651  0.765043   
+Cuivre (mg)                                        2.852935  2.535117   
+Sélénium (µg)                                      0.939663  2.081044   
+Manganèse (mg)                                     2.124387  1.849782   
+
+                                                   global  
+Energie, Règlement UE N° 1169/2011 (kcal)        1.569729  
+Protéines (g)                                    0.938341  
+Lipides (g)                                      1.637250  
+AG saturés (g)                                   1.526369  
+Acide laurique + myristique + palmitique (g)     1.355220  
+Cholestérol (mg)                                 1.044208  
+AG 18:2 9c,12c (n-6), linoléique (g)             1.904301  
+AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g)  0.291500  
+EPA + DHA (mg)                                   0.000072  
+Glucides (g)                                     1.316645  
+Sucres  totaux hors lactose (g)                  3.307329  
+Fibres alimentaires (g)                          1.721367  
+Vitamine C (mg)                                  3.156002  
+Vitamine B1 ou Thiamine (mg)                     1.457741  
+Vitamine B2 ou Riboflavine (mg)                  1.388803  
+Vitamine B3 ou PP ou Niacine (mg)                0.988183  
+Vitamine B5 ou Acide pantothénique (mg)          1.540960  
+Vitamine B6 (mg)                                 2.145939  
+Vitamine B9 ou Folates totaux (µg)               1.543388  
+Vitamine B12 (µg)                                0.659250  
+Vitamine A  (µg)                                 1.712464  
+Vitamine E (mg)                                  1.320578  
+Sel chlorure de sodium (g)                       0.586398  
+Calcium (mg)                                     1.576238  
+Phosphore (mg)                                   3.087852  
+Magnésium (mg)                                   1.163422  
+Fer (mg)                                         1.425091  
+Iode (µg)                                        1.096837  
+Zinc (mg)                                        1.321622  
+Cuivre (mg)                                      2.760533  
+Sélénium (µg)                                    1.883832  
+Manganèse (mg)                                   1.843514  
+-------------------------THIRD BEST RECIPES---------------------------------------------------
+position in combined score= 0
+score_nutri = -92.34848136248672
+score_taste = 0.08577221269556948
+exp_combined = 43.57987398148226
+exp_nutri = 5.588926468398052
+exp_taste = 1.0568222151278035
+score_mini = 0.8666666666666667
+score_novelty = 2.7511393229166665
+exp_novelty = 2.3703392518164343
+PRAL =  -0.9905971159994038
+SAIN =  1.4476675221211837
+LIM =  3.104330034492012
+FF =  2.611760694888149
+NutriScore =  4.75
++++++++++++++++++++++++++++++++++++++++++++++
+Petit Dejeuner:
+oeuf : Oeuf de caille, cru ,  50 g
+feculent : Riz blanc étuvé, cuit, non salé ,  102.0 g
+legumineuse : Fève, cuite ,  48.0 g
+fruit et legume : Fruit de la passion ou maracudja, pulpe et pépins, cru ,  50 g
+fruit et legume : Groseille à maquereau, crue ,  50 g
+fruit à coque : Châtaigne, bouillie/cuite à l'eau ,  10 g
+fruit à coque : Cacahuète ou Arachide ,  10 g
+laitage : Boisson à base d'avoine, nature ,  126.0 g
+fromage : Ricotta ,  24.0 g
++++++++++++++++++++++++++++++++++++++++++++++
+Dejeuner:
+feculent : Pomme de terre, bouillie/cuite à l'eau ,  169.0 g
+legumineuse : Pois cassé, cuit ,  31.0 g
+fruit et legume : Poivron, vert, jaune ou rouge, cru ,  117.0 g
+fruit et legume : Bambou, pousse, crue ,  117.0 g
+fruit séché : Raisin, sec ,  17.0 g
+graine : Sésame, graine décortiquée ,  20 g
+laitage : Lait concentré non sucré, entier ,  86.0 g
+fromage : Edam ,  64.0 g
++++++++++++++++++++++++++++++++++++++++++++++
+Collation:
+feculent : Pomme de terre, purée (aliment moyen) ,  90.0 g
+legumineuse : Lentille, sèche ,  5.0 g
+legumineuse : Lentille verte, cuite ,  5.0 g
+fruit et legume : Nectarine ou brugnon, pulpe et peau, crue ,  31.0 g
+fruit et legume : Groseille à maquereau, crue ,  31.0 g
+fruit et legume : Poivron vert, cuit ,  31.0 g
+fruit séché : Pomme, sèche ,  7.0 g
+fruit à coque : Châtaigne, bouillie/cuite à l'eau ,  20 g
+laitage : Yaourt ou spécialité laitière nature (aliment moyen) ,  100 g
++++++++++++++++++++++++++++++++++++++++++++++
+Diner:
+feculent : Riz blanc étuvé, cuit, non salé ,  155.0 g
+legumineuse : Pois chiche, cuit ,  45.0 g
+fruit et legume : Tomate, pulpe et peau, bouillie/cuite à l'eau ,  125 g
+fruit et legume : Courge, crue ,  125 g
+fruit à coque : Noix du Brésil ,  20 g
+laitage : Kéfir ,  150 g
+matières grasses : Beurre de cacao ,  15 g
++++++++++++++++++++++++++++++++++++++++++++++
+                                                 Petit Dejeuner:  Dejeuner:  \
+Energie, Règlement UE N° 1169/2011 (kcal)               1.381133   1.747175   
+Protéines (g)                                           0.929164   1.356446   
+Lipides (g)                                             1.084813   1.830467   
+AG saturés (g)                                          0.960055   1.792313   
+Acide laurique + myristique + palmitique (g)            0.989346   1.810096   
+Cholestérol (mg)                                        3.618667   0.365128   
+AG 18:2 9c,12c (n-6), linoléique (g)                    1.119671   1.987355   
+AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g)         0.260889   0.363111   
+EPA + DHA (mg)                                          0.000218   0.000000   
+Glucides (g)                                            1.445067   1.194230   
+Sucres  totaux hors lactose (g)                         3.257271   3.046863   
+Fibres alimentaires (g)                                 2.072833   1.532051   
+Vitamine C (mg)                                         1.713545   5.516336   
+Vitamine B1 ou Thiamine (mg)                            1.123556   1.634501   
+Vitamine B2 ou Riboflavine (mg)                         1.848727   1.953333   
+Vitamine B3 ou PP ou Niacine (mg)                       0.994204   1.478951   
+Vitamine B5 ou Acide pantothénique (mg)                 1.513086   2.577656   
+Vitamine B6 (mg)                                        0.940606   4.120000   
+Vitamine B9 ou Folates totaux (µg)                      1.446162   1.987385   
+Vitamine B12 (µg)                                       1.089500   1.080000   
+Vitamine A  (µg)                                        1.226810   2.477949   
+Vitamine E (mg)                                         0.687608   1.089774   
+Sel chlorure de sodium (g)                              0.369216   1.272414   
+Calcium (mg)                                            0.822882   3.219092   
+Phosphore (mg)                                          2.466429   4.884495   
+Magnésium (mg)                                          0.855364   1.394698   
+Fer (mg)                                                1.846091   1.336154   
+Iode (µg)                                               1.483000   1.365538   
+Zinc (mg)                                               0.936615   2.203077   
+Cuivre (mg)                                             1.717130   3.067826   
+Sélénium (µg)                                           2.396714   1.695220   
+Manganèse (mg)                                          1.209509   1.574514   
+
+                                                 Collation:    Diner:  \
+Energie, Règlement UE N° 1169/2011 (kcal)          1.507992  1.421562   
+Protéines (g)                                      1.116667  0.691170   
+Lipides (g)                                        0.984117  1.868359   
+AG saturés (g)                                     1.349968  2.306259   
+Acide laurique + myristique + palmitique (g)       1.281105  1.792175   
+Cholestérol (mg)                                   0.337708  0.134615   
+AG 18:2 9c,12c (n-6), linoléique (g)               0.182055  2.648051   
+AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g)    0.371278  0.279145   
+EPA + DHA (mg)                                     0.000026  0.000055   
+Glucides (g)                                       1.961933  1.312932   
+Sucres  totaux hors lactose (g)                    5.264839  3.129203   
+Fibres alimentaires (g)                            2.456250  1.232372   
+Vitamine C (mg)                                    5.138977  1.409615   
+Vitamine B1 ou Thiamine (mg)                       2.163981  1.298433   
+Vitamine B2 ou Riboflavine (mg)                    2.867879  1.162238   
+Vitamine B3 ou PP ou Niacine (mg)                  1.557484  0.513229   
+Vitamine B5 ou Acide pantothénique (mg)            2.365929  0.871795   
+Vitamine B6 (mg)                                   2.818409  1.025641   
+Vitamine B9 ou Folates totaux (µg)                 1.928712  1.380746   
+Vitamine B12 (µg)                                  1.210625  0.259615   
+Vitamine A  (µg)                                   1.031429  1.771978   
+Vitamine E (mg)                                    1.118333  0.871342   
+Sel chlorure de sodium (g)                         0.891398  0.166290   
+Calcium (mg)                                       2.459959  1.254014   
+Phosphore (mg)                                     3.792661  2.508791   
+Magnésium (mg)                                     1.325926  1.244872   
+Fer (mg)                                           1.930341  0.934091   
+Iode (µg)                                          2.653500  1.615962   
+Zinc (mg)                                          1.205692  0.950751   
+Cuivre (mg)                                        2.936522  2.585284   
+Sélénium (µg)                                      1.259306  2.188187   
+Manganèse (mg)                                     2.157123  1.869376   
+
+                                                   global  
+Energie, Règlement UE N° 1169/2011 (kcal)        1.525922  
+Protéines (g)                                    1.009433  
+Lipides (g)                                      1.571733  
+AG saturés (g)                                   1.707046  
+Acide laurique + myristique + palmitique (g)     1.546185  
+Cholestérol (mg)                                 1.100854  
+AG 18:2 9c,12c (n-6), linoléique (g)             1.804630  
+AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g)  0.311083  
+EPA + DHA (mg)                                   0.000075  
+Glucides (g)                                     1.372288  
+Sucres  totaux hors lactose (g)                  3.348023  
+Fibres alimentaires (g)                          1.662271  
+Vitamine C (mg)                                  3.193218  
+Vitamine B1 ou Thiamine (mg)                     1.450491  
+Vitamine B2 ou Riboflavine (mg)                  1.761530  
+Vitamine B3 ou PP ou Niacine (mg)                1.051758  
+Vitamine B5 ou Acide pantothénique (mg)          1.735936  
+Vitamine B6 (mg)                                 2.189326  
+Vitamine B9 ou Folates totaux (µg)               1.649054  
+Vitamine B12 (µg)                                0.828812  
+Vitamine A  (µg)                                 1.791071  
+Vitamine E (mg)                                  0.921098  
+Sel chlorure de sodium (g)                       0.649023  
+Calcium (mg)                                     1.905476  
+Phosphore (mg)                                   3.398691  
+Magnésium (mg)                                   1.204294  
+Fer (mg)                                         1.392386  
+Iode (µg)                                        1.605088  
+Zinc (mg)                                        1.379717  
+Cuivre (mg)                                      2.560196  
+Sélénium (µg)                                    1.987216  
+Manganèse (mg)                                   1.637354  
+------------------POPULATION----------------------------------------------
+Generation no 200 :
+Execution time:  22.4945068359375  secondes
+Mean score_nutri:  -102.98233130268167
+Mean score_taste:  0.08530560093263542
+Mean exp_combined = 5.253868147043143
+Mean exp_nutri = 1.5741307341890185
+Mean exp_taste = 1.6275497676040054
+Mean score_mini = 0.786399137818519
+Mean exp_novelty = 1.273329082207722
+Mean score_novelty = 2.741314453125
+Mean PRAL (~0?) :  -0.8082078694009878
+Mean SAIN (>5?) :  1.2630427827759012
+Mean LIM (<7?) :  3.3747070510654558
+Mean FF (>2.5?) :  2.54408248312234
+Mean NutriScore (A=5,E=1) :  4.533
+Top 3 worst scores_nutri [-89.22598869 -89.22598869 -89.22598869]
+Top 3 best scores_nutri [-271.54240432 -212.80554673 -212.80554673]
+Top 3 best taste scores [0.10126743 0.09775829 0.09550803 0.09501961]
+Top 3 best exp_combined (combined scores) [13.23251478 13.23251478 12.69072478 12.69072478]
+Mean total weight 2052.072
+nb d'ingredients en commun entre profils (gen-1)= 45
+------------------PROFILS-------------------------------------------------
+Group's profil no 2
+profils:
+['Femmes 18 - < 55 ans obèse ', 'Hommes 18 - < 55 ans ; hommes > 55 ans< 70 ans homme obèse ou diabète type 2 si obèse ']
+Nb of different ingredients in population =  132
+Nb of best day 's ingredients in common with best scores days: [[ 9  8 11  7]
+ [ 9  8 11  7]
+ [ 6  8 10  7]
+ [ 6  8 10  7]
+ [ 8  8 10  7]
+ [ 8  8 10  7]
+ [ 8  8 10  7]
+ [ 8  8 10  7]
+ [ 8  8 10  7]
+ [ 8  8 10  7]
+ [ 8  8 10  7]
+ [ 8  8 10  7]
+ [ 8  8 10  7]
+ [ 8  8 10  7]
+ [ 8  8 10  7]
+ [ 8  8 10  7]
+ [ 8  8 10  7]
+ [ 8  8 10  7]
+ [ 8  8 11  7]
+ [ 8  8 11  7]
+ [ 8  8 11  7]
+ [ 8  8 11  7]
+ [ 8  8 11  7]
+ [ 8  8 11  7]
+ [ 8  8 11  7]]
+------------------BEST MOST DIFFERENT RECIPES--------------------------------------------
+-------------------------FIRST BEST RECIPES---------------------------------------------------
+position in combined score= 0
+score_nutri = -102.65046658707507
+score_taste = 0.09247647387315718
+exp_combined = 13.232514775666822
+exp_nutri = 1.0329544200275833
+exp_taste = 1.9150343683866573
+score_mini = 0.8333333333333334
+score_novelty = 2.8229166666666665
+exp_novelty = 1.5460229256316758
+PRAL =  -0.7833801514716388
+SAIN =  1.3210739491967325
+LIM =  3.4196687438583258
+FF =  2.5163281450606894
+NutriScore =  4.5
++++++++++++++++++++++++++++++++++++++++++++++
+Petit Dejeuner:
+oeuf : Oeuf de caille, cru ,  50 g
+feculent : Riz blanc étuvé, cuit, non salé ,  102.0 g
+legumineuse : Fève, cuite ,  48.0 g
+fruit et legume : Groseille à maquereau, crue ,  41.0 g
+fruit et legume : Nectarine ou brugnon, pulpe et peau, crue ,  41.0 g
+fruit séché : Pomme, sèche ,  18.0 g
+graine : Tournesol, graine ,  20 g
+laitage : Boisson à base d'avoine, nature ,  126.0 g
+fromage : Ricotta ,  24.0 g
++++++++++++++++++++++++++++++++++++++++++++++
+Dejeuner:
+feculent : Pomme de terre, bouillie/cuite à l'eau ,  169.0 g
+legumineuse : Pois cassé, cuit ,  31.0 g
+fruit et legume : Poivron, vert, jaune ou rouge, cru ,  117.0 g
+fruit et legume : Bambou, pousse, crue ,  117.0 g
+fruit séché : Raisin, sec ,  17.0 g
+fruit à coque : Noix de coco, amande immature, fraîche ,  20 g
+laitage : Lait concentré non sucré, entier ,  86.0 g
+fromage : Edam ,  64.0 g
++++++++++++++++++++++++++++++++++++++++++++++
+Collation:
+feculent : Pomme de terre, purée (aliment moyen) ,  90.0 g
+legumineuse : Lentille, sèche ,  5.0 g
+legumineuse : Lentille verte, cuite ,  5.0 g
+fruit et legume : Nectarine ou brugnon, pulpe et peau, crue ,  31.0 g
+fruit et legume : Groseille à maquereau, crue ,  31.0 g
+fruit et legume : Poivron vert, cuit ,  31.0 g
+fruit séché : Pomme, sèche ,  7.0 g
+fruit à coque : Cacahuète ou Arachide ,  10 g
+fruit à coque : Noisette ,  10 g
+laitage : Boisson à l'amande ,  89.0 g
+fromage : Ricotta ,  11.0 g
++++++++++++++++++++++++++++++++++++++++++++++
+Diner:
+feculent : Riz blanc étuvé, cuit, non salé ,  155.0 g
+legumineuse : Pois chiche, cuit ,  45.0 g
+fruit et legume : Tomate, pulpe et peau, bouillie/cuite à l'eau ,  125 g
+fruit et legume : Courge, crue ,  125 g
+fruit à coque : Noix du Brésil ,  20 g
+laitage : Kéfir ,  150 g
+matières grasses : Beurre de cacao ,  15 g
++++++++++++++++++++++++++++++++++++++++++++++
+                                                 Petit Dejeuner:  Dejeuner:  \
+Energie, Règlement UE N° 1169/2011 (kcal)               1.407167   1.613841   
+Protéines (g)                                           0.986036   1.223896   
+Lipides (g)                                             1.473600   1.598672   
+AG saturés (g)                                          1.026595   2.396509   
+Acide laurique + myristique + palmitique (g)            1.002834   2.597788   
+Cholestérol (mg)                                        3.618667   0.365128   
+AG 18:2 9c,12c (n-6), linoléique (g)                    3.461863   0.141201   
+AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g)         0.310711   0.229778   
+EPA + DHA (mg)                                          0.000224   0.000000   
+Glucides (g)                                            1.606407   1.200645   
+Sucres  totaux hors lactose (g)                         3.708029   3.109940   
+Fibres alimentaires (g)                                 1.517883   1.457692   
+Vitamine C (mg)                                         0.934727   5.539413   
+Vitamine B1 ou Thiamine (mg)                            2.459370   1.244758   
+Vitamine B2 ou Riboflavine (mg)                         1.807697   1.883403   
+Vitamine B3 ou PP ou Niacine (mg)                       0.883057   1.252592   
+Vitamine B5 ou Acide pantothénique (mg)                 1.568705   2.596703   
+Vitamine B6 (mg)                                        1.438576   3.865455   
+Vitamine B9 ou Folates totaux (µg)                      1.837962   1.838200   
+Vitamine B12 (µg)                                       1.089500   1.080000   
+Vitamine A  (µg)                                        0.863119   2.470623   
+Vitamine E (mg)                                         4.002510   1.002896   
+Sel chlorure de sodium (g)                              0.370912   1.269197   
+Calcium (mg)                                            0.851086   3.180906   
+Phosphore (mg)                                          2.656636   4.236143   
+Magnésium (mg)                                          1.249078   0.896079   
+Fer (mg)                                                1.929773   1.061329   
+Iode (µg)                                               1.442333   1.364513   
+Zinc (mg)                                               1.147602   1.755922   
+Cuivre (mg)                                             2.638478   2.425686   
+Sélénium (µg)                                           2.357277   1.427088   
+Manganèse (mg)                                          1.591792   1.443890   
+
+                                                 Collation:    Diner:  \
+Energie, Règlement UE N° 1169/2011 (kcal)          2.024091  1.421562   
+Protéines (g)                                      1.191685  0.691170   
+Lipides (g)                                        2.790450  1.868359   
+AG saturés (g)                                     1.558877  2.306259   
+Acide laurique + myristique + palmitique (g)       1.456622  1.792175   
+Cholestérol (mg)                                   0.208750  0.134615   
+AG 18:2 9c,12c (n-6), linoléique (g)               2.603425  2.648051   
+AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g)    0.384611  0.279145   
+EPA + DHA (mg)                                     0.000060  0.000055   
+Glucides (g)                                       1.646752  1.312932   
+Sucres  totaux hors lactose (g)                    4.351286  3.129203   
+Fibres alimentaires (g)                            2.990958  1.232372   
+Vitamine C (mg)                                    4.515114  1.409615   
+Vitamine B1 ou Thiamine (mg)                       2.287407  1.298433   
+Vitamine B2 ou Riboflavine (mg)                    1.158030  1.162238   
+Vitamine B3 ou PP ou Niacine (mg)                  2.301115  0.513229   
+Vitamine B5 ou Acide pantothénique (mg)            2.075690  0.871795   
+Vitamine B6 (mg)                                   2.649697  1.025641   
+Vitamine B9 ou Folates totaux (µg)                 1.639015  1.380746   
+Vitamine B12 (µg)                                  0.358750  0.259615   
+Vitamine A  (µg)                                   1.058899  1.771978   
+Vitamine E (mg)                                    2.267549  0.871342   
+Sel chlorure de sodium (g)                         0.670034  0.166290   
+Calcium (mg)                                       1.432651  1.254014   
+Phosphore (mg)                                     3.418196  2.508791   
+Magnésium (mg)                                     1.597977  1.244872   
+Fer (mg)                                           1.901705  0.934091   
+Iode (µg)                                          0.896833  1.615962   
+Zinc (mg)                                          1.550781  0.950751   
+Cuivre (mg)                                        3.961630  2.585284   
+Sélénium (µg)                                      1.486091  2.188187   
+Manganèse (mg)                                     3.822500  1.869376   
+
+                                                   global  
+Energie, Règlement UE N° 1169/2011 (kcal)        1.540707  
+Protéines (g)                                    0.988074  
+Lipides (g)                                      1.774230  
+AG saturés (g)                                   1.940936  
+Acide laurique + myristique + palmitique (g)     1.823109  
+Cholestérol (mg)                                 1.087958  
+AG 18:2 9c,12c (n-6), linoléique (g)             2.032315  
+AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g)  0.281539  
+EPA + DHA (mg)                                   0.000080  
+Glucides (g)                                     1.383189  
+Sucres  totaux hors lactose (g)                  3.389857  
+Fibres alimentaires (g)                          1.552837  
+Vitamine C (mg)                                  2.943627  
+Vitamine B1 ou Thiamine (mg)                     1.670120  
+Vitamine B2 ou Riboflavine (mg)                  1.557561  
+Vitamine B3 ou PP ou Niacine (mg)                1.024768  
+Vitamine B5 ou Acide pantothénique (mg)          1.727007  
+Vitamine B6 (mg)                                 2.214220  
+Vitamine B9 ou Folates totaux (µg)               1.669550  
+Vitamine B12 (µg)                                0.743625  
+Vitamine A  (µg)                                 1.700515  
+Vitamine E (mg)                                  1.836510  
+Sel chlorure de sodium (g)                       0.626265  
+Calcium (mg)                                     1.797386  
+Phosphore (mg)                                   3.198082  
+Magnésium (mg)                                   1.167876  
+Fer (mg)                                         1.321125  
+Iode (µg)                                        1.418921  
+Zinc (mg)                                        1.321647  
+Cuivre (mg)                                      2.684348  
+Sélénium (µg)                                    1.912893  
+Manganèse (mg)                                   1.857009  
+-------------------------SECOND BEST RECIPES---------------------------------------------------
+position in combined score= 2
+score_nutri = -96.65103860875732
+score_taste = 0.09417780133650541
+exp_combined = 12.690724784629593
+exp_nutri = 1.8562624967082815
+exp_taste = 2.234212380493957
+score_mini = 0.8333333333333334
+score_novelty = 2.6764322916666665
+exp_novelty = 0.7072188934421415
+PRAL =  -0.9073403027349367
+SAIN =  1.2285140801807244
+LIM =  3.2541078909811496
+FF =  2.5369127493523447
+NutriScore =  4.5
++++++++++++++++++++++++++++++++++++++++++++++
+Petit Dejeuner:
+oeuf : Oeuf de caille, cru ,  50 g
+feculent : Riz blanc étuvé, cuit, non salé ,  102.0 g
+legumineuse : Fève, cuite ,  48.0 g
+fruit et legume : Groseille à maquereau, crue ,  41.0 g
+fruit et legume : Nectarine ou brugnon, pulpe et peau, crue ,  41.0 g
+fruit séché : Pomme, sèche ,  18.0 g
+fruit à coque : Châtaigne, bouillie/cuite à l'eau ,  10 g
+fruit à coque : Cacahuète ou Arachide ,  10 g
+laitage : Lait entier, pasteurisé ,  75 g
+laitage : Boisson au soja, nature ,  75 g
++++++++++++++++++++++++++++++++++++++++++++++
+Dejeuner:
+feculent : Pomme de terre, bouillie/cuite à l'eau ,  169.0 g
+legumineuse : Pois cassé, cuit ,  31.0 g
+fruit et legume : Poivron, vert, jaune ou rouge, cru ,  117.0 g
+fruit et legume : Bambou, pousse, crue ,  117.0 g
+fruit séché : Raisin, sec ,  17.0 g
+fruit à coque : Noix de coco, amande immature, fraîche ,  20 g
+laitage : Lait concentré non sucré, entier ,  86.0 g
+fromage : Edam ,  64.0 g
++++++++++++++++++++++++++++++++++++++++++++++
+Collation:
+feculent : Pomme de terre, purée (aliment moyen) ,  90.0 g
+legumineuse : Lentille, sèche ,  5.0 g
+legumineuse : Lentille verte, cuite ,  5.0 g
+fruit et legume : Nectarine ou brugnon, pulpe et peau, crue ,  31.0 g
+fruit et legume : Groseille à maquereau, crue ,  31.0 g
+fruit et legume : Poivron vert, cuit ,  31.0 g
+fruit séché : Pomme, sèche ,  7.0 g
+fruit à coque : Cacahuète ou Arachide ,  10 g
+fruit à coque : Noisette ,  10 g
+laitage : Boisson à l'amande ,  100 g
++++++++++++++++++++++++++++++++++++++++++++++
+Diner:
+feculent : Riz blanc étuvé, cuit, non salé ,  155.0 g
+legumineuse : Pois chiche, cuit ,  45.0 g
+fruit et legume : Tomate, pulpe et peau, bouillie/cuite à l'eau ,  125 g
+fruit et legume : Courge, crue ,  125 g
+fruit à coque : Noix du Brésil ,  20 g
+laitage : Kéfir ,  150 g
+matières grasses : Beurre de cacao ,  15 g
++++++++++++++++++++++++++++++++++++++++++++++
+                                                 Petit Dejeuner:  Dejeuner:  \
+Energie, Règlement UE N° 1169/2011 (kcal)               1.292391   1.613841   
+Protéines (g)                                           1.009760   1.223896   
+Lipides (g)                                             1.055833   1.598672   
+AG saturés (g)                                          0.889104   2.396509   
+Acide laurique + myristique + palmitique (g)            0.858309   2.597788   
+Cholestérol (mg)                                        3.608542   0.365128   
+AG 18:2 9c,12c (n-6), linoléique (g)                    1.153288   0.141201   
+AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g)         0.361489   0.229778   
+EPA + DHA (mg)                                          0.000026   0.000000   
+Glucides (g)                                            1.473062   1.200645   
+Sucres  totaux hors lactose (g)                         3.387850   3.109940   
+Fibres alimentaires (g)                                 1.492883   1.457692   
+Vitamine C (mg)                                         1.092000   5.539413   
+Vitamine B1 ou Thiamine (mg)                            1.246741   1.244758   
+Vitamine B2 ou Riboflavine (mg)                         1.973758   1.883403   
+Vitamine B3 ou PP ou Niacine (mg)                       0.955350   1.252592   
+Vitamine B5 ou Acide pantothénique (mg)                 1.750190   2.596703   
+Vitamine B6 (mg)                                        0.992606   3.865455   
+Vitamine B9 ou Folates totaux (µg)                      1.581279   1.838200   
+Vitamine B12 (µg)                                       1.287500   1.080000   
+Vitamine A  (µg)                                        0.978833   2.470623   
+Vitamine E (mg)                                         0.685902   1.002896   
+Sel chlorure de sodium (g)                              0.410994   1.269197   
+Calcium (mg)                                            0.918419   3.180906   
+Phosphore (mg)                                          2.727850   4.236143   
+Magnésium (mg)                                          0.902791   0.896079   
+Fer (mg)                                                1.736182   1.061329   
+Iode (µg)                                               1.599500   1.364513   
+Zinc (mg)                                               1.014395   1.755922   
+Cuivre (mg)                                             2.346565   2.425686   
+Sélénium (µg)                                           3.463563   1.427088   
+Manganèse (mg)                                          1.454358   1.443890   
+
+                                                 Collation:    Diner:  \
+Energie, Règlement UE N° 1169/2011 (kcal)          2.042841  1.421562   
+Protéines (g)                                      1.082485  0.691170   
+Lipides (g)                                        2.599783  1.868359   
+AG saturés (g)                                     1.160877  2.306259   
+Acide laurique + myristique + palmitique (g)       1.033312  1.792175   
+Cholestérol (mg)                                   0.091875  0.134615   
+AG 18:2 9c,12c (n-6), linoléique (g)               2.579315  2.648051   
+AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g)    0.280722  0.279145   
+EPA + DHA (mg)                                     0.000060  0.000055   
+Glucides (g)                                       1.629752  1.312932   
+Sucres  totaux hors lactose (g)                    4.335571  3.129203   
+Fibres alimentaires (g)                            3.009292  1.232372   
+Vitamine C (mg)                                    4.515114  1.409615   
+Vitamine B1 ou Thiamine (mg)                       2.284352  1.298433   
+Vitamine B2 ou Riboflavine (mg)                    0.999697  1.162238   
+Vitamine B3 ou PP ou Niacine (mg)                  2.301115  0.513229   
+Vitamine B5 ou Acide pantothénique (mg)            2.020690  0.871795   
+Vitamine B6 (mg)                                   2.613864  1.025641   
+Vitamine B9 ou Folates totaux (µg)                 1.602348  1.380746   
+Vitamine B12 (µg)                                  0.241875  0.259615   
+Vitamine A  (µg)                                   0.818274  1.771978   
+Vitamine E (mg)                                    2.330098  0.871342   
+Sel chlorure de sodium (g)                         0.595034  0.166290   
+Calcium (mg)                                       0.999703  1.254014   
+Phosphore (mg)                                     3.137304  2.508791   
+Magnésium (mg)                                     1.566951  1.244872   
+Fer (mg)                                           1.866705  0.934091   
+Iode (µg)                                          0.731833  1.615962   
+Zinc (mg)                                          1.412793  0.950751   
+Cuivre (mg)                                        3.936522  2.585284   
+Sélénium (µg)                                      1.486091  2.188187   
+Manganèse (mg)                                     3.819387  1.869376   
+
+                                                   global  
+Energie, Règlement UE N° 1169/2011 (kcal)        1.513888  
+Protéines (g)                                    0.983085  
+Lipides (g)                                      1.650722  
+AG saturés (g)                                   1.866763  
+Acide laurique + myristique + palmitique (g)     1.744647  
+Cholestérol (mg)                                 1.073740  
+AG 18:2 9c,12c (n-6), linoléique (g)             1.452760  
+AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g)  0.283844  
+EPA + DHA (mg)                                   0.000030  
+Glucides (g)                                     1.348153  
+Sucres  totaux hors lactose (g)                  3.308241  
+Fibres alimentaires (g)                          1.548421  
+Vitamine C (mg)                                  2.982945  
+Vitamine B1 ou Thiamine (mg)                     1.366657  
+Vitamine B2 ou Riboflavine (mg)                  1.583242  
+Vitamine B3 ou PP ou Niacine (mg)                1.042841  
+Vitamine B5 ou Acide pantothénique (mg)          1.766879  
+Vitamine B6 (mg)                                 2.099144  
+Vitamine B9 ou Folates totaux (µg)               1.601712  
+Vitamine B12 (µg)                                0.781437  
+Vitamine A  (µg)                                 1.705381  
+Vitamine E (mg)                                  1.013613  
+Sel chlorure de sodium (g)                       0.628785  
+Calcium (mg)                                     1.770924  
+Phosphore (mg)                                   3.187796  
+Magnésium (mg)                                   1.078202  
+Fer (mg)                                         1.269227  
+Iode (µg)                                        1.441712  
+Zinc (mg)                                        1.274547  
+Cuivre (mg)                                      2.608859  
+Sélénium (µg)                                    2.189464  
+Manganèse (mg)                                   1.822340  
+-------------------------THIRD BEST RECIPES---------------------------------------------------
+position in combined score= 0
+score_nutri = -102.65046658707507
+score_taste = 0.09247647387315718
+exp_combined = 13.232514775666822
+exp_nutri = 1.0329544200275833
+exp_taste = 1.9150343683866573
+score_mini = 0.8333333333333334
+score_novelty = 2.8229166666666665
+exp_novelty = 1.5460229256316758
+PRAL =  -0.7833801514716388
+SAIN =  1.3210739491967325
+LIM =  3.4196687438583258
+FF =  2.5163281450606894
+NutriScore =  4.5
++++++++++++++++++++++++++++++++++++++++++++++
+Petit Dejeuner:
+oeuf : Oeuf de caille, cru ,  50 g
+feculent : Riz blanc étuvé, cuit, non salé ,  102.0 g
+legumineuse : Fève, cuite ,  48.0 g
+fruit et legume : Groseille à maquereau, crue ,  41.0 g
+fruit et legume : Nectarine ou brugnon, pulpe et peau, crue ,  41.0 g
+fruit séché : Pomme, sèche ,  18.0 g
+graine : Tournesol, graine ,  20 g
+laitage : Boisson à base d'avoine, nature ,  126.0 g
+fromage : Ricotta ,  24.0 g
++++++++++++++++++++++++++++++++++++++++++++++
+Dejeuner:
+feculent : Pomme de terre, bouillie/cuite à l'eau ,  169.0 g
+legumineuse : Pois cassé, cuit ,  31.0 g
+fruit et legume : Poivron, vert, jaune ou rouge, cru ,  117.0 g
+fruit et legume : Bambou, pousse, crue ,  117.0 g
+fruit séché : Raisin, sec ,  17.0 g
+fruit à coque : Noix de coco, amande immature, fraîche ,  20 g
+laitage : Lait concentré non sucré, entier ,  86.0 g
+fromage : Edam ,  64.0 g
++++++++++++++++++++++++++++++++++++++++++++++
+Collation:
+feculent : Pomme de terre, purée (aliment moyen) ,  90.0 g
+legumineuse : Lentille, sèche ,  5.0 g
+legumineuse : Lentille verte, cuite ,  5.0 g
+fruit et legume : Nectarine ou brugnon, pulpe et peau, crue ,  31.0 g
+fruit et legume : Groseille à maquereau, crue ,  31.0 g
+fruit et legume : Poivron vert, cuit ,  31.0 g
+fruit séché : Pomme, sèche ,  7.0 g
+fruit à coque : Cacahuète ou Arachide ,  10 g
+fruit à coque : Noisette ,  10 g
+laitage : Boisson à l'amande ,  89.0 g
+fromage : Ricotta ,  11.0 g
++++++++++++++++++++++++++++++++++++++++++++++
+Diner:
+feculent : Riz blanc étuvé, cuit, non salé ,  155.0 g
+legumineuse : Pois chiche, cuit ,  45.0 g
+fruit et legume : Tomate, pulpe et peau, bouillie/cuite à l'eau ,  125 g
+fruit et legume : Courge, crue ,  125 g
+fruit à coque : Noix du Brésil ,  20 g
+laitage : Kéfir ,  150 g
+matières grasses : Beurre de cacao ,  15 g
++++++++++++++++++++++++++++++++++++++++++++++
+                                                 Petit Dejeuner:  Dejeuner:  \
+Energie, Règlement UE N° 1169/2011 (kcal)               1.407167   1.613841   
+Protéines (g)                                           0.986036   1.223896   
+Lipides (g)                                             1.473600   1.598672   
+AG saturés (g)                                          1.026595   2.396509   
+Acide laurique + myristique + palmitique (g)            1.002834   2.597788   
+Cholestérol (mg)                                        3.618667   0.365128   
+AG 18:2 9c,12c (n-6), linoléique (g)                    3.461863   0.141201   
+AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g)         0.310711   0.229778   
+EPA + DHA (mg)                                          0.000224   0.000000   
+Glucides (g)                                            1.606407   1.200645   
+Sucres  totaux hors lactose (g)                         3.708029   3.109940   
+Fibres alimentaires (g)                                 1.517883   1.457692   
+Vitamine C (mg)                                         0.934727   5.539413   
+Vitamine B1 ou Thiamine (mg)                            2.459370   1.244758   
+Vitamine B2 ou Riboflavine (mg)                         1.807697   1.883403   
+Vitamine B3 ou PP ou Niacine (mg)                       0.883057   1.252592   
+Vitamine B5 ou Acide pantothénique (mg)                 1.568705   2.596703   
+Vitamine B6 (mg)                                        1.438576   3.865455   
+Vitamine B9 ou Folates totaux (µg)                      1.837962   1.838200   
+Vitamine B12 (µg)                                       1.089500   1.080000   
+Vitamine A  (µg)                                        0.863119   2.470623   
+Vitamine E (mg)                                         4.002510   1.002896   
+Sel chlorure de sodium (g)                              0.370912   1.269197   
+Calcium (mg)                                            0.851086   3.180906   
+Phosphore (mg)                                          2.656636   4.236143   
+Magnésium (mg)                                          1.249078   0.896079   
+Fer (mg)                                                1.929773   1.061329   
+Iode (µg)                                               1.442333   1.364513   
+Zinc (mg)                                               1.147602   1.755922   
+Cuivre (mg)                                             2.638478   2.425686   
+Sélénium (µg)                                           2.357277   1.427088   
+Manganèse (mg)                                          1.591792   1.443890   
+
+                                                 Collation:    Diner:  \
+Energie, Règlement UE N° 1169/2011 (kcal)          2.024091  1.421562   
+Protéines (g)                                      1.191685  0.691170   
+Lipides (g)                                        2.790450  1.868359   
+AG saturés (g)                                     1.558877  2.306259   
+Acide laurique + myristique + palmitique (g)       1.456622  1.792175   
+Cholestérol (mg)                                   0.208750  0.134615   
+AG 18:2 9c,12c (n-6), linoléique (g)               2.603425  2.648051   
+AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g)    0.384611  0.279145   
+EPA + DHA (mg)                                     0.000060  0.000055   
+Glucides (g)                                       1.646752  1.312932   
+Sucres  totaux hors lactose (g)                    4.351286  3.129203   
+Fibres alimentaires (g)                            2.990958  1.232372   
+Vitamine C (mg)                                    4.515114  1.409615   
+Vitamine B1 ou Thiamine (mg)                       2.287407  1.298433   
+Vitamine B2 ou Riboflavine (mg)                    1.158030  1.162238   
+Vitamine B3 ou PP ou Niacine (mg)                  2.301115  0.513229   
+Vitamine B5 ou Acide pantothénique (mg)            2.075690  0.871795   
+Vitamine B6 (mg)                                   2.649697  1.025641   
+Vitamine B9 ou Folates totaux (µg)                 1.639015  1.380746   
+Vitamine B12 (µg)                                  0.358750  0.259615   
+Vitamine A  (µg)                                   1.058899  1.771978   
+Vitamine E (mg)                                    2.267549  0.871342   
+Sel chlorure de sodium (g)                         0.670034  0.166290   
+Calcium (mg)                                       1.432651  1.254014   
+Phosphore (mg)                                     3.418196  2.508791   
+Magnésium (mg)                                     1.597977  1.244872   
+Fer (mg)                                           1.901705  0.934091   
+Iode (µg)                                          0.896833  1.615962   
+Zinc (mg)                                          1.550781  0.950751   
+Cuivre (mg)                                        3.961630  2.585284   
+Sélénium (µg)                                      1.486091  2.188187   
+Manganèse (mg)                                     3.822500  1.869376   
+
+                                                   global  
+Energie, Règlement UE N° 1169/2011 (kcal)        1.540707  
+Protéines (g)                                    0.988074  
+Lipides (g)                                      1.774230  
+AG saturés (g)                                   1.940936  
+Acide laurique + myristique + palmitique (g)     1.823109  
+Cholestérol (mg)                                 1.087958  
+AG 18:2 9c,12c (n-6), linoléique (g)             2.032315  
+AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g)  0.281539  
+EPA + DHA (mg)                                   0.000080  
+Glucides (g)                                     1.383189  
+Sucres  totaux hors lactose (g)                  3.389857  
+Fibres alimentaires (g)                          1.552837  
+Vitamine C (mg)                                  2.943627  
+Vitamine B1 ou Thiamine (mg)                     1.670120  
+Vitamine B2 ou Riboflavine (mg)                  1.557561  
+Vitamine B3 ou PP ou Niacine (mg)                1.024768  
+Vitamine B5 ou Acide pantothénique (mg)          1.727007  
+Vitamine B6 (mg)                                 2.214220  
+Vitamine B9 ou Folates totaux (µg)               1.669550  
+Vitamine B12 (µg)                                0.743625  
+Vitamine A  (µg)                                 1.700515  
+Vitamine E (mg)                                  1.836510  
+Sel chlorure de sodium (g)                       0.626265  
+Calcium (mg)                                     1.797386  
+Phosphore (mg)                                   3.198082  
+Magnésium (mg)                                   1.167876  
+Fer (mg)                                         1.321125  
+Iode (µg)                                        1.418921  
+Zinc (mg)                                        1.321647  
+Cuivre (mg)                                      2.684348  
+Sélénium (µg)                                    1.912893  
+Manganèse (mg)                                   1.857009  

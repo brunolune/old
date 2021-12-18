@@ -1,0 +1,46 @@
+# Makefile.targets - Defines targets for mass spectrum computation stages
+
+LIBS = -L/opt/cuda/lib64 -lcudart -L/usr/lib64/nvidia -lcuda -lgfortran -lgomp
+INCS = /opt/cuda/include
+
+NVCCFLAGS = -O2 -m$(CUDAARCH)  -arch=compute_20 -code=sm_20 -Xcompiler -fPIC 
+FFLAGS = -fno-underscoring -std=f2003 -m$(CUDAARCH)
+
+setITdir:
+	export IT=$(PWD)
+
+Efields: IonTrap.edp
+	FreeFem++ -v 0 -ne -nw IonTrap.edp
+
+VMeshToGrid.so: $(CITSIM)/code/VMeshToGrid.f90 
+	$(PYTHONBIN)/f2py --quiet --fcompiler=gfortran -c --opt="-O2 -w" $(CITSIM)/code/VMeshToGrid.f90 -m VMeshToGrid
+
+$(CITSIM)/code/ion_ion.o: $(CITSIM)/code/ion_ion.cu
+	nvcc -c $(NVCCFLAGS) $(CITSIM)/code/ion_ion.cu -o $(CITSIM)/code/ion_ion.o
+
+$(CITSIM)/code/LBM.o: $(CITSIM)/code/LBM-MRT.cu
+	nvcc -c $(NVCCFLAGS) $(CITSIM)/code/LBM-MRT.cu -o $(CITSIM)/code/LBM.o
+
+ion_traj_2D.so: $(CITSIM)/code/ion_traj_2D.f90 $(CITSIM)/code/ion_ion.o $(CITSIM)/code/LBM.o
+	$(PYTHONBIN)/f2py --quiet --fcompiler=gfortran -c --opt="-O2 -w"  $(LIBS)\
+	 $(CITSIM)/code/ion_traj_2D.f90 $(CITSIM)/code/ion_ion.o $(CITSIM)/code/LBM.o -m ion_traj_2D
+
+ion_traj_3D_omp_draft2.so: $(CITSIM)/code/ion_traj_3D_omp_draft2.f90 $(CITSIM)/code/ion_ion.o $(CITSIM)/code/LBM.o
+	$(PYTHONBIN)/f2py --quiet --fcompiler=gfortran -c --opt="-O2 -w -fopenmp" $(LIBS)\
+	 $(CITSIM)/code/ion_traj_3D_omp_draft2.f90 $(CITSIM)/code/ion_ion.o $(CITSIM)/code/LBM.o -m ion_traj_3D
+
+lattice:
+	$(PYTHONBIN)/python $(CITSIM)/code/MeshToLattice.py
+
+trajectory: ion_traj_2D.so ion_traj_3D_omp_draft2.so
+	rm --force traj*.vtk coll*.vtk
+	$(PYTHONBIN)/ipython --pylab --no-confirm-exit --no-banner -i $(CITSIM)/code/trajectory_3D.py
+
+trajectory_compare: ion_traj_3D.so
+	$(PYTHONBIN)/python ./trajectory_compare.py
+
+spectrum: ion_traj_3D.so
+	$(PYTHONBIN)/python $(CITSIM)/code/citsim.py
+	
+clean:
+	rm -f *.msh *.eps *.sol *.gmsh *.so *.pyc *.o *.vtk

@@ -1,0 +1,12 @@
+                                       alim_nom_fr  poids
+261             Farine d'épeautre (grand épeautre)  112.0
+279                            Haricot blanc, cuit   48.0
+227                                   Avoine, crue  168.0
+390                           Bambou, pousse, crue  190.0
+650  Tomate, pulpe et peau, bouillie/cuite à l'eau  285.0
+640                                 Rutabaga, cuit  237.5
+919              Langouste, bouillie/cuite à l'eau  100.0
+563         Noix de coco, amande immature, fraîche    3.0
+668                                           Edam   36.0
+764                     Huile d'olive vierge extra   18.0
+reward_nutri= 63 reward_taste= 299 reward= 361
